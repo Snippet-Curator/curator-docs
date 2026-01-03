@@ -1,22 +1,21 @@
 ---
 title: Others
-description: 
+description:
 ---
 
 ## Acknowledgement
 
-Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Snippet Curator possible. 
+Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Snippet Curator possible.
 
 ## Issues
 
-If you find bugs, you can report them [here](https://github.com/Snippet-Curator/snippet-curator/issues).
+If you find bugs, you can report them [here](https://github.com/kangruixiang/curator/issues).
 
 ## Roadmap
 
 You can view the roadmap [here](https://github.com/orgs/Snippet-Curator/projects/1). This is where I keep potential ideas and what I'm working on.
 
 You can also discuss thoughts about Snippet Curator [here](https://github.com/Snippet-Curator/snippet-curator/discussions).
-
 
 ## FAQ
 
