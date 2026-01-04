@@ -11,6 +11,8 @@ Special thanks to [Pocketbase and Gani](https://pocketbase.io/) that made Curato
 
 If you find bugs, you can report them [here](https://github.com/kangruixiang/curator/issues).
 
+If you like using Curator, please consider helping with its source and making it better. I'm one person only and slow and not really a programmer.
+
 ## Roadmap
 
 You can view the roadmap [here](https://github.com/orgs/Snippet-Curator/projects/1). This is where I keep potential ideas and what I'm working on.
