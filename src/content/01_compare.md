@@ -4,7 +4,7 @@ title: Compared to Other Tools
 
 ## Bookmarking Tools
 
-There are numerous other tools for saving websites (e.g., [Karakeep](https://github.com/karakeep-app/karakeep), [ArchiveBox](https://archivebox.io/), [Raindrop](https://raindrop.io/), Linkwarden(https://linkwarden.app/)). Why make another one?
+There are numerous other tools for saving websites (e.g., [Karakeep](https://github.com/karakeep-app/karakeep), [ArchiveBox](https://archivebox.io/), [Raindrop](https://raindrop.io/), [Linkwarden](https://linkwarden.app/)). Why make another one?
 
 I think of bookmark sites as primarily links to webpages, with backup function in case the link dies. Full pages are often archived with or without screenshot.
 

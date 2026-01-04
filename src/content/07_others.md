@@ -28,5 +28,5 @@ You can also discuss thoughts about Curator [here](https://github.com/Snippet-Cu
 <div class="collapse collapse-plus bg-base-100 border border-base-300 text-lg">
   <input type="radio" name="my-accordion-3" />
   <div class="collapse-title font-semibold">Any plan to add AI for ranking notes in Discover section?</div>
-  <div class="collapse-content">I like things the way it is right now. You have more control over exactly how the algorithm works. It's more private and less bloated. The discover page, for example, can be customized to filter the exact notebook or tags. </div>
+  <div class="collapse-content">I like things the way they are right now. You have more control over exactly how the algorithm works. It's more private and less bloated.  </div>
 </div>
