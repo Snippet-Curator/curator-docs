@@ -10,7 +10,7 @@ services:
   pocketbase:
     image: kangruixiang/pocketbase:latest
     volumes:
-      - ./pb_data:/app/db/pb_data # data base folder
+      - ./pb_data:/app/db/pb_data # database folder
     ports:
       - "8090:8090"
 
