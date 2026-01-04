@@ -78,7 +78,7 @@
 					>
 						<p>Notes are presented based on rating, upvotes, and how recently they were viewed. Filter them by notebook or tags.</p>
 						<div class="mt-4">
-							<a href="/docs/06_discover">
+							<a href="/docs/05_discover">
 								<button class="btn btn-ghost"
 									>See How Discover Work <ChevronRight size={18} />
 								</button>
