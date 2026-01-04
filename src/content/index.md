@@ -1,28 +1,27 @@
 ---
-title: Download and Install
-description: 
+title: Install
+description:
 ---
 
-Snippet Curator is open source and provided for free. You can download the latest version for Mac or Windows:
+Install Curator with Docker compose:
 
-<a href="https://github.com/Snippet-Curator/snippet-curator-releases/releases/latest">
-<button class="btn btn-primary">Download</button>
-</a>
+<pre><code>
+services:
+  pocketbase:
+    image: kangruixiang/pocketbase:latest
+    volumes:
+      - ./pb_data:/app/db/pb_data # data base folder
+    ports:
+      - "8090:8090"
 
-For **Windows**, look for the file ending in `.exe`.
-For **Mac**, look for the file ending in `.dmg`.
-
-If you are interested in **Linux** version, [let me know](/docs/08_roadmap).
-
-I have managed to host it on my home server via Docker. It's possible but still needs more tinkering.
-
-## Troubleshoot
-
-When installing on Windows, you may run into a prompt about unrecognized app: 
-![](/images/windows.png)
-
-This message appears because the app is not code signed on Windows, a very expensive fee to pay every year. While offering the app for free, I just don't think I could justify the cost.
-
-You can circumvent this message by clicking **More info** and click **Run Anyway**:
-
-![](/images/windows2.png)
+  curator:
+    image: kangruixiang/curator:latest
+    environment: 
+      - PUBLIC_POCKETBASE_URL=http://localhost:8090 # change this to your actual server URL 
+      - PUBLIC_INTERNAL_POCKETBASE_URL=http://pocketbase:8090
+    depends_on: 
+      - pocketbase
+    ports: 
+      - "3000:3000"
+</code>
+</pre>

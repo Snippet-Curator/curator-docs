@@ -87,12 +87,12 @@
 	}
 
 	/* Pre and code styles */
-	:global(.prose pre) {
+	/* :global(.prose pre) {
 		padding: 0.75rem !important;
 		margin: 0;
 		background-color: #f6f8fa !important;
-	}
-
+	} */
+/* 
 	:global(.prose :not(pre) > code) {
 		background-color: rgb(175 184 193 / 20%);
 		padding: 0.25rem;
@@ -100,7 +100,7 @@
 		font-size: 0.875em;
 		font-weight: 400;
 		max-width: 100%;
-	}
+	} */
 
 	:global(.dark .prose :not(pre) > code) {
 		background-color: rgb(30 41 59);

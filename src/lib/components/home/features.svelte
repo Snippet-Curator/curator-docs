@@ -18,8 +18,8 @@
 					class="col-span-12 flex flex-col items-end text-base md:col-span-5 md:px-0 md:pt-8 md:pb-12 md:text-xl"
 				>
 					<p class="">
-						Add Evernote exports, SingleFile saves, images, videos, audio, and PDFs files. Saved
-						offline, available even when the webpage disappears.
+						Add SingleFile saves, Evernote exports, images, videos, audio, and PDFs files. Saved
+						locally, available even when the webpage disappears.
 					</p>
 
 					<div class="mt-4">
@@ -76,7 +76,7 @@
 					<div
 						class="flex flex-col text-right text-base md:my-4 md:items-end md:text-left md:text-xl"
 					>
-						<p>Notes are presented based on rating, upvotes, and how recently they were viewed.</p>
+						<p>Notes are presented based on rating, upvotes, and how recently they were viewed. Filter them by notebook or tags.</p>
 						<div class="mt-4">
 							<a href="/docs/06_discover">
 								<button class="btn btn-ghost"
