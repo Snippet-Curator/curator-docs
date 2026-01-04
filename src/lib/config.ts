@@ -3,7 +3,7 @@ import type { NavItem } from '$lib/types/nav';
 import type { SiteConfig } from './types/config';
 
 export const siteConfig: SiteConfig = {
-	version: '0.0.8',
+	version: '0.0.9',
 	title: 'Curator',
 	description: 'Organize and re-discover your internet saves.',
 	github: '',

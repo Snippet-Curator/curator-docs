@@ -54,13 +54,13 @@
 					<figure>
 						<img
 							class="dark:border-base-content/10 rounded-lg border shadow-md dark:hidden"
-							src="images/discover-dark.png"
+							src="images/discoverDark.png"
 							alt=""
 						/>
 						<figure>
 							<img
 								class="hidden rounded-lg shadow-md dark:block"
-								src="images/discover.png"
+								src="images/discoverLight.png"
 								alt=""
 							/>
 						</figure>
